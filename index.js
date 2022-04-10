@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 const { User } = require("./models/User")
 const config = require("./config/key")
 
+
 // application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({extend: true}));
 
